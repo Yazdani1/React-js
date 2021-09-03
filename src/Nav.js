@@ -13,11 +13,11 @@ function Nav() {
           <li>Post</li>
         </Link>
         <Link to="/Profile" className="eachitem">
-          <li>Profile</li>
+          <li>Profile Items</li>
         </Link>
       </ul>
     </nav>
   );
 }
-
+//nav updated
 export default Nav;
