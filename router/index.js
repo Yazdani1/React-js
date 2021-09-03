@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const Data = require("../model/Data");
-
 router.get("/", (req, res) => {
   res.send("Hello nofdsfdsdfde js");
 });
@@ -19,7 +18,6 @@ router.post("/post", (req, res) => {
       console.log(err);
     });
 });
-
 router.get("/allData", (req, res) => {
   Data.find({})
     .lean()
