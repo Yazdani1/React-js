@@ -4,6 +4,9 @@ const Data = require("../model/Data");
 router.get("/", (req, res) => {
   res.send("Hello nofdsfdsdfde js");
 });
+
+
+
 router.post("/post", (req, res) => {
   var postData = Data(req.body);
   Data.create(postData)
