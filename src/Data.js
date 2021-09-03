@@ -22,7 +22,6 @@ function Data() {
         toastId: customId,
       });
     };
-
     return (
       <div className="container">
         <ToastContainer limit={1} />
